@@ -1,21 +1,25 @@
 <template>
-    <div>
-        <nav-header></nav-header>
-        <router-view></router-view>
-        <nav-footer></nav-footer>
-    </div>
+  <div>
+    home
+    <nav-header></nav-header>
+    <router-view></router-view>
+    <nav-footer></nav-footer>
+  </div>
 </template>
 
 <script>
+import NavHeader from "./../components/NavHeader";
+import NavFooter from "./../components/NavFooter";
 export default {
-  data(){
-   return {
-
-   }
-  }
-}
+  name: "home",
+  components: {
+    NavHeader,
+    NavFooter,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
-<style scoped >
-
-</style>
+<style scoped></style>
