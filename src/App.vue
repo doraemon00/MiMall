@@ -6,13 +6,11 @@
 
 <script>
 export default {
-  name: 'App',
-  components: {
-    
-  },
-}
+  name: "App",
+  components: {},
+};
 </script>
 
 <style>
-
+@import "./assets/scss/reset.scss";
 </style>
